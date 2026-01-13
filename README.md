@@ -23,5 +23,3 @@ Solve LeetCode daily without breaking the streak and master:
 
 ---
 
-## 🗂 Folder Structure
-
