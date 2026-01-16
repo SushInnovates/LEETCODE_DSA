@@ -66,3 +66,60 @@ Because:
 - After the loop ends:  
 ```cpp
 return false;
+```
+---
+
+### 8️⃣ Can sorting be used?
+- Yes.
+
+- Sort the array → O(n log n).
+
+- Check adjacent elements.
+
+But:
+
+- Slower than hashing.
+
+Modifies input.
+
+👉 Hashing is preferred in interviews.
+
+---
+
+### 9️⃣ What is the time and space complexity?
+Time: O(n) (average case)
+
+Space: O(n)
+
+Mention this confidently.
+
+---
+
+### 🔟 One‑line explanation to impress interviewer
+“I iterate once while storing seen elements in a hash set and return true as soon as a duplicate appears.”
+
+Short. Clean. Strong.
+---
+
+🧠 Pattern Name
+Seen‑Before / Hash Set Pattern
+
+Recognizing this pattern makes half of DSA problems easier.
+
+🔗 Related Questions (Same Pattern)
+- Two Sum (#1)
+- Contains Duplicate II (#219)
+- Valid Anagram (#242)
+- Happy Number
+- First Unique Character in a String
+- Intersection of Two Arrays
+
+---
+
+### 🔒 Final Lock‑In Sentence
+Say this out loud once:
+```
+“Contains Duplicate is just checking if I’ve seen the same number before.”
+```
+If you can say that, you’ll never forget this problem.
+
