@@ -2,7 +2,7 @@
 
 This repository contains my daily LeetCode problem-solving practice in C++.
 
-I solve **at least 1 problem every day** and upload the solution here to build strong **Data Structures & Algorithms** skills for:
+I try to solve **at least 1 problem every day** and upload the solution here to build strong **Data Structures & Algorithms** skills for:
 
 - Coding interviews  
 - GATE CS  
