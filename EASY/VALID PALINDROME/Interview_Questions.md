@@ -49,3 +49,30 @@ Palindrome check is case‑insensitive.
 **Answer:**  
 ```cpp
 isalnum(character)
+```
+
+---
+## 7️⃣ Edge Cases
+ - Empty string ""
+ - Only symbols "!!!"
+ - Mixed case "Aa"
+ - Spaces " "
+ - Single character "a"
+
+---
+
+## 8️⃣ Can this be done without extra memory?
+Answer:  
+✅ Yes → Using two pointers → O(1) space
+---
+
+## 9️⃣ When do we immediately return false?
+Answer:  
+When:
+cpp
+tolower(s[left]) != tolower(s[right])
+---
+🔑 One‑Line Summary (INTERVIEW GOLD)
+```
+“We use two pointers to compare characters from both ends while skipping non‑alphanumeric characters and ignoring case.”
+```
