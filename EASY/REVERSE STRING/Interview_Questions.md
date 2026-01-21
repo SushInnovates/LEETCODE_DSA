@@ -65,3 +65,23 @@ Yes, but:
 Yes:  
 ```cpp
 reverse(s.begin(), s.end());
+```
+But manual two‑pointer is preferred in interviews.
+---
+
+1️⃣8️⃣ Where is this logic reused?
+- Valid Palindrome
+- Reverse Words in String
+- Two Sum (two pointers version)
+- Sliding Window problems
+---
+1️⃣9️⃣ Why is this problem important?
+It teaches:
+- Two pointers
+- In‑place operations
+- Memory efficiency
+- Foundation for many harder problems
+---
+2️⃣0️⃣ One‑line interview explanation (VERY IMPORTANT)
+I use two pointers from both ends, swap characters, and move inward until the string is reversed in place with O(n) time and O(1) space.
+---
