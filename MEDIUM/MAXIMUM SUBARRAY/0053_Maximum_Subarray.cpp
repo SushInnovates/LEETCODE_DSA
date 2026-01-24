@@ -1,0 +1,18 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Solution
+{
+public:
+    int maxSubArray(vector<int> &nums)
+    {
+        int CurrentSum = nums[0];
+        int MaxSum = nums[0];
+
+        for (int i = 1; i < nums.size(); i++)
+        {
+            CurrentSum = max(nums[i], CurrentSum + nums[i]);
+            MaxSum = max(MaxSum, CurrentSum);
+        }
+        return MaxSum;
+    }
+};
