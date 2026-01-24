@@ -47,5 +47,31 @@ Output: `6` from subarray `[4,-1,2,1]`
 - Yes, but Kadane’s is simpler and optimal.
 
 ## 1️⃣4️⃣ DP Relation
-```text
+```
 currentSum = max(nums[i], currentSum + nums[i])
+```
+
+## 1️⃣5️⃣ Why interviewers love this question?
+It tests:
+
+ - Dynamic programming thinking
+ - Optimization
+ - Edge case handling
+ - Greedy decisions
+
+## 1️⃣6️⃣ Common mistakes ❌
+ - Initializing sum as 0
+ - Ignoring all‑negative case
+ - Using nested loops
+
+## 1️⃣7️⃣ One‑line interview explanation ⭐
+ - At each index, I decide whether to start a new subarray or continue the previous one.
+
+## 1️⃣8️⃣ Can we also return the subarray itself?
+ - Yes, by tracking start and end indices.
+
+## 1️⃣9️⃣ What happens if array has only one element?
+- That element itself is the answer.
+
+## 2️⃣0️⃣ Optimization Answer
+ - Kadane’s algorithm gives optimal O(n) time with constant space.
